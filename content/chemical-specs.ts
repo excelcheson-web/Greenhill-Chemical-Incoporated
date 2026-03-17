@@ -45,9 +45,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Irritant to eyes and respiratory tract. Dust masks and goggles are mandatory during bulk transfer.",
     logisticsNote:
       "Shipped in sealed polyethylene-lined drums. Store in a cool, dry, well-ventilated area.",
-    sdsUrl: "/documents/sds/cerium-oxide-sds.pdf",
-    coaUrl: "/documents/coa/cerium-oxide-coa.pdf",
-    tdsUrl: "/documents/tds/cerium-oxide-tds.pdf",
+    sdsUrl: "/sds#cerium-oxide",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Purity Options", value: "99.9% to 99.999%" },
       { label: "Appearance", value: "Pale yellow to creamy white powder" },
@@ -73,9 +73,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "FATAL IF SWALLOWED OR INHALED. Contact with acids releases highly toxic Hydrogen Cyanide gas. Must be stored in a dry, locked, and well-ventilated area away from acids.",
     logisticsNote:
       'Strictly regulated. Transported in "Cyanide-Safe" steel drums or intermediate bulk containers (IBCs).',
-    sdsUrl: "/documents/sds/sodium-cyanide-sds.pdf",
-    coaUrl: "/documents/coa/sodium-cyanide-coa.pdf",
-    tdsUrl: "/documents/tds/sodium-cyanide-tds.pdf",
+    sdsUrl: "/sds#sodium-cyanide",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Form", value: "Solid White Briquettes or Pearls" },
       { label: "Content", value: "≥98% Active NaCN" },
@@ -105,9 +105,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Strong oxidizer. Causes severe skin burns. Must be stored in acid-resistant stainless steel or specialized plastic containers. Keep away from combustible materials as it can cause ignition.",
     logisticsNote:
       "Transported in UN-approved acid-resistant tankers or carboys. Segregate from organic materials during transit.",
-    sdsUrl: "/documents/sds/nitric-acid-sds.pdf",
-    coaUrl: "/documents/coa/nitric-acid-coa.pdf",
-    tdsUrl: "/documents/tds/nitric-acid-tds.pdf",
+    sdsUrl: "/sds#nitric-acid",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Concentration", value: "68% (Technical Grade)" },
       { label: "Appearance", value: "Colorless to yellowish fuming liquid" },
@@ -138,9 +138,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Causes severe burns. Absorbs moisture rapidly — keep containers sealed. Use face shield, rubber gloves, and apron when handling.",
     logisticsNote:
       "Supplied in 25 kg moisture-proof PE bags or 1-ton bulk bags. Preferred pearl form for automated dosing systems.",
-    sdsUrl: "/documents/sds/caustic-soda-sds.pdf",
-    coaUrl: "/documents/coa/caustic-soda-coa.pdf",
-    tdsUrl: "/documents/tds/caustic-soda-tds.pdf",
+    sdsUrl: "/sds#caustic-soda-pearls",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Purity", value: "≥99% (Sodium Hydroxide)" },
       { label: "Appearance", value: "White, spherical granules (Pearls)" },
@@ -169,9 +169,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Strong oxidizer. Risk of explosion if heated under confinement or contaminated with fuels. Strict regulatory tracking is required for all supply shipments to mining sites.",
     logisticsNote:
       "Transported under dangerous-goods classification. Requires temperature monitoring and segregated storage away from fuels and organic material.",
-    sdsUrl: "/documents/sds/ammonium-nitrate-sds.pdf",
-    coaUrl: "/documents/coa/ammonium-nitrate-coa.pdf",
-    tdsUrl: "/documents/tds/ammonium-nitrate-tds.pdf",
+    sdsUrl: "/sds#ammonium-nitrate",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Nitrogen Content", value: "33.5% to 34.5%" },
       { label: "Form", value: "Prilled (Granular)" },
@@ -202,9 +202,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Corrosive. Causes severe burns to skin, eyes, and respiratory tract. Store in acid-resistant containers and provide adequate ventilation.",
     logisticsNote:
       "Transported in rubber-lined steel tankers or HDPE carboys. Must be segregated from oxidizers and bases.",
-    sdsUrl: "/documents/sds/hydrochloric-acid-sds.pdf",
-    coaUrl: "/documents/coa/hydrochloric-acid-coa.pdf",
-    tdsUrl: "/documents/tds/hydrochloric-acid-tds.pdf",
+    sdsUrl: "/sds#hydrochloric-acid",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Concentration", value: "32–36% (Technical Grade)" },
       { label: "Appearance", value: "Clear, colorless to slightly yellow liquid" },
@@ -235,9 +235,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Extremely corrosive. Generates intense heat on contact with water. Causes severe burns. Full PPE including face shield required.",
     logisticsNote:
       "Transported in carbon-steel tankers or acid-proof IBCs. Temperature monitoring required for concentrated grades.",
-    sdsUrl: "/documents/sds/sulfuric-acid-sds.pdf",
-    coaUrl: "/documents/coa/sulfuric-acid-coa.pdf",
-    tdsUrl: "/documents/tds/sulfuric-acid-tds.pdf",
+    sdsUrl: "/sds#sulfuric-acid",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Concentration", value: "98% (Concentrated)" },
       { label: "Appearance", value: "Clear, colorless, oily liquid" },
@@ -268,9 +268,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Low hazard. Dust is a nuisance irritant. Wet activated carbon depletes oxygen in confined spaces — ensure ventilation.",
     logisticsNote:
       "Shipped in moisture-proof 25 kg bags or 500 kg bulk bags. Keep dry before use to maintain adsorption capacity.",
-    sdsUrl: "/documents/sds/activated-carbon-sds.pdf",
-    coaUrl: "/documents/coa/activated-carbon-coa.pdf",
-    tdsUrl: "/documents/tds/activated-carbon-tds.pdf",
+    sdsUrl: "/sds#activated-carbon",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Iodine Number", value: "≥1000 mg/g" },
       { label: "Form", value: "Granular (coconut-shell based)" },
@@ -299,9 +299,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Irritant. Decomposes to release toxic carbon disulfide gas upon contact with acids or moisture. Store in cool, dry, ventilated conditions away from acids.",
     logisticsNote:
       "Supplied in nitrogen-purged steel drums (50–150 kg). Shelf life is limited — first-in-first-out inventory rotation required.",
-    sdsUrl: "/documents/sds/xanthate-sipx-sds.pdf",
-    coaUrl: "/documents/coa/xanthate-sipx-coa.pdf",
-    tdsUrl: "/documents/tds/xanthate-sipx-tds.pdf",
+    sdsUrl: "/sds#xanthate-sipx",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Active Content", value: "≥90%" },
       { label: "Appearance", value: "Yellow to light-brown powder/pellets" },
@@ -332,9 +332,9 @@ export const chemicalSpecs: ChemicalSpec[] = [
       "Strong oxidizer. Releases toxic chlorine gas if mixed with acids or ammonia. Store in a cool, dry area away from organic materials and direct sunlight.",
     logisticsNote:
       "Shipped in sealed 25–50 kg HDPE drums. Must be segregated from acids, ammonia, and combustibles during transit.",
-    sdsUrl: "/documents/sds/calcium-hypochlorite-sds.pdf",
-    coaUrl: "/documents/coa/calcium-hypochlorite-coa.pdf",
-    tdsUrl: "/documents/tds/calcium-hypochlorite-tds.pdf",
+    sdsUrl: "/sds#calcium-hypochlorite",
+    coaUrl: "/contact",
+    tdsUrl: "/contact",
     properties: [
       { label: "Available Chlorine", value: "65–70%" },
       { label: "Form", value: "White Granular Solid" },

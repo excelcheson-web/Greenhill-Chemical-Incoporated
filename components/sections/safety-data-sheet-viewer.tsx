@@ -35,19 +35,34 @@ export function SafetyDataSheetViewer({ pdfUrl, data }: SafetyDataSheetViewerPro
             GHS Classification Summary
           </p>
         </div>
-        <a
-          href={pdfUrl}
-          download
-          className={cn(
-            "inline-flex items-center gap-2 rounded-md",
-            "bg-brand-anthracite px-4 py-2.5 text-sm font-semibold text-white",
-            "transition-colors hover:bg-brand-anthracite/90",
-            "focus:outline-none focus:ring-2 focus:ring-brand-mint focus:ring-offset-2"
-          )}
-        >
-          <FileDown className="h-4 w-4" aria-hidden="true" />
-          Download Full SDS (PDF)
-        </a>
+        {pdfUrl ? (
+          <a
+            href={pdfUrl}
+            download
+            className={cn(
+              "inline-flex items-center gap-2 rounded-md",
+              "bg-brand-anthracite px-4 py-2.5 text-sm font-semibold text-white",
+              "transition-colors hover:bg-brand-anthracite/90",
+              "focus:outline-none focus:ring-2 focus:ring-brand-mint focus:ring-offset-2"
+            )}
+          >
+            <FileDown className="h-4 w-4" aria-hidden="true" />
+            Download Full SDS (PDF)
+          </a>
+        ) : (
+          <a
+            href="/contact"
+            className={cn(
+              "inline-flex items-center gap-2 rounded-md",
+              "bg-brand-mint px-4 py-2.5 text-sm font-semibold text-brand-anthracite",
+              "transition-colors hover:bg-brand-mint/80",
+              "focus:outline-none focus:ring-2 focus:ring-brand-mint focus:ring-offset-2"
+            )}
+          >
+            <FileDown className="h-4 w-4" aria-hidden="true" />
+            Request Full SDS Document
+          </a>
+        )}
       </header>
 
       <div className="space-y-8 p-6">

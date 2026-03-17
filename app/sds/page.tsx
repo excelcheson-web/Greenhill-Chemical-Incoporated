@@ -44,11 +44,12 @@ export default function SdsPage() {
 
       <div className="mx-auto max-w-4xl space-y-10 px-4 py-12 sm:px-6 lg:px-8">
         {sheets.map((sds) => (
-          <SafetyDataSheetViewer
-            key={sds.productId}
-            pdfUrl={sds.pdfUrl}
-            data={sds}
-          />
+          <div key={sds.productId} id={sds.productId}>
+            <SafetyDataSheetViewer
+              pdfUrl={sds.pdfUrl}
+              data={sds}
+            />
+          </div>
         ))}
       </div>
     </>

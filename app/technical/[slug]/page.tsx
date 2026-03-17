@@ -246,7 +246,12 @@ export default function ChemicalSpecPage({ params }: PageProps) {
               <div className="space-y-3 pt-2">
                 {[
                   {
-                    label: "Technical Data Sheet (TDS)",
+                    label: "Safety Data Sheet (SDS)",
+                    url: chem.sdsUrl,
+                    primary: true,
+                  },
+                  {
+                    label: "Request Technical Data Sheet (TDS)",
                     url: chem.tdsUrl,
                     primary: true,
                   },
@@ -256,7 +261,7 @@ export default function ChemicalSpecPage({ params }: PageProps) {
                     primary: false,
                   },
                   {
-                    label: "Certificate of Analysis (CoA)",
+                    label: "Request Certificate of Analysis (CoA)",
                     url: chem.coaUrl,
                     primary: false,
                   },
@@ -264,14 +269,12 @@ export default function ChemicalSpecPage({ params }: PageProps) {
                   <a
                     key={doc.label}
                     href={doc.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className={`flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-mint ${
                       doc.primary
                         ? "bg-brand-mint text-brand-anthracite hover:bg-brand-mint/80"
                         : "border border-brand-border bg-brand-light text-brand-anthracite hover:bg-brand-border"
                     }`}
-                    aria-label={`Download ${doc.label} for ${chem.name}`}
+                    aria-label={`${doc.label} for ${chem.name}`}
                   >
                     {doc.primary ? (
                       <Download className="h-4 w-4" aria-hidden="true" />
