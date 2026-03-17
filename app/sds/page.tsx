@@ -22,7 +22,7 @@ export default function SdsPage() {
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-brand-anthracite">
         <Image
-          src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=1920&q=80"
+          src="https://images.unsplash.com/photo-1599493782928-1d1e42e0b612?auto=format&fit=crop&w=1920&q=80"
           alt=""
           fill
           priority
