@@ -27,42 +27,42 @@ const distributionNetwork: DistributionEntry[] = [
     facility: "Mandaue City HQ",
     capacity: "5,000 MT/month",
     contactPerson: "Engr. Marco R. Dela Cruz",
-    phone: "+63 32 345 6789",
+    phone: "+63 32 345 ****",
   },
   {
     region: "Metro Manila / NCR",
     facility: "Pasig Logistics Hub",
     capacity: "8,000 MT/month",
     contactPerson: "Dr. Patricia S. Reyes",
-    phone: "+63 2 8765 4321",
+    phone: "+63 2 8765 ****",
   },
   {
     region: "Northern Mindanao",
     facility: "Cagayan de Oro Depot",
     capacity: "3,000 MT/month",
     contactPerson: "Engr. Jose M. Santos",
-    phone: "+63 88 856 1234",
+    phone: "+63 88 856 ****",
   },
   {
     region: "Western Visayas",
     facility: "Iloilo Distribution Center",
     capacity: "2,500 MT/month",
     contactPerson: "Ms. Angela T. Navarro",
-    phone: "+63 33 337 5678",
+    phone: "+63 33 337 ****",
   },
   {
     region: "CALABARZON",
     facility: "Batangas Chemical Terminal",
     capacity: "6,000 MT/month",
     contactPerson: "Engr. Rafael C. Lim",
-    phone: "+63 43 723 9012",
+    phone: "+63 43 723 ****",
   },
   {
     region: "Southeast Asia Export",
     facility: "Cebu International Port",
     capacity: "4,000 MT/month",
     contactPerson: "Mr. David K. Ong",
-    phone: "+63 32 254 3456",
+    phone: "+63 32 254 ****",
   },
 ];
 
@@ -368,8 +368,8 @@ export default function OperationsPage() {
             Operations &amp; Distribution
           </h1>
           <p className="max-w-3xl text-lg text-brand-clean/80">
-            Headquartered at M.L Quezon St. Casuntingan, Mandaue City, Cebu,
-            Philippines — Greenhills Chemicals operates an integrated supply chain
+            Headquartered at Greenhills Product Bldg, M.L Quezon St. Casuntingan,
+            Mandaue City, Cebu — Greenhills Chemicals operates an integrated supply chain
             spanning key economic zones across the Philippines and Southeast Asia.
           </p>
 
@@ -384,11 +384,11 @@ export default function OperationsPage() {
                 Corporate Headquarters
               </h2>
               <address className="mt-1 text-sm not-italic leading-relaxed text-brand-clean/80">
-                M.L Quezon St. Casuntingan
+                Greenhills Product Bldg, M.L Quezon St.
                 <br />
-                Mandaue City, Cebu
+                Casuntingan, Mandaue City
                 <br />
-                Philippines
+                Cebu, Philippines
               </address>
             </div>
           </div>

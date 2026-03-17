@@ -112,12 +112,12 @@ export function Scrollytelling() {
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-24 sm:px-6 lg:grid-cols-2 lg:px-8 lg:py-32">
           {/* Image side */}
           <ScrollStage index={0} className="order-2 lg:order-1">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl bg-brand-light">
               <Image
-                src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=960&q=80"
-                alt="Close-up of quality inspection process with certified chemical container showing quality-checked seal badge"
+                src="/images/quality-seal.png"
+                alt="Premium Quality seal badge — Greenhills Chemicals quality assurance"
                 fill
-                className="object-cover"
+                className="object-contain p-8"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               {/* QC Seal overlay */}

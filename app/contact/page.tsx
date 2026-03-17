@@ -73,10 +73,10 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-sm font-semibold text-brand-anthracite">Phone</h2>
                   <a
-                    href="tel:+1-555-GHC-CHEM"
+                    href="tel:+639625021374"
                     className="text-sm text-brand-anthracite/70 underline-offset-2 hover:underline focus:outline-none focus:ring-2 focus:ring-brand-mint focus:ring-offset-2"
                   >
-                    +1 (555) GHC-CHEM
+                    +63 962 502 1374
                   </a>
                 </div>
               </div>
@@ -88,11 +88,11 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-sm font-semibold text-brand-anthracite">Office</h2>
                   <p className="text-sm text-brand-anthracite/70">
-                    123 Greenhills Industrial Park
+                    Greenhills Product Bldg, M.L Quezon St.
                     <br />
-                    San Juan, Metro Manila
+                    Casuntingan, Mandaue City
                     <br />
-                    Philippines
+                    Cebu, Philippines
                   </p>
                 </div>
               </div>

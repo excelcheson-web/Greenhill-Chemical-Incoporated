@@ -10,7 +10,7 @@ export function HeroSection() {
     >
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1611348586804-61bf6c080437?auto=format&fit=crop&w=1920&q=80"
+        src="/images/hero-chemicals.jpg"
         alt=""
         fill
         priority
