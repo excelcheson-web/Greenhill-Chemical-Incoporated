@@ -49,7 +49,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-brand-anthracite">
         <Image
-          src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1920&q=80"
+          src="/images/about-hero.jpg"
           alt=""
           fill
           priority
