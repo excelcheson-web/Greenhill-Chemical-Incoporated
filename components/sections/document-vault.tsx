@@ -147,10 +147,8 @@ export function DocumentVault() {
                     <td className="whitespace-nowrap px-6 py-4 text-center">
                       <a
                         href={chem.sdsUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 rounded-md bg-brand-light px-3 py-1.5 text-xs font-semibold text-brand-anthracite transition-colors hover:bg-brand-mint/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-mint"
-                        aria-label={`Download SDS for ${chem.name}`}
+                        aria-label={`View SDS for ${chem.name}`}
                       >
                         <FileText className="h-3.5 w-3.5" aria-hidden="true" />
                         SDS
@@ -159,10 +157,8 @@ export function DocumentVault() {
                     <td className="whitespace-nowrap px-6 py-4 text-center">
                       <a
                         href={chem.coaUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 rounded-md bg-brand-light px-3 py-1.5 text-xs font-semibold text-brand-anthracite transition-colors hover:bg-brand-mint/20 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-mint"
-                        aria-label={`Download CoA for ${chem.name}`}
+                        aria-label={`Request CoA for ${chem.name}`}
                       >
                         <FileText className="h-3.5 w-3.5" aria-hidden="true" />
                         CoA

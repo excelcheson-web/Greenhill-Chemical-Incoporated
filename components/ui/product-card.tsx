@@ -54,10 +54,9 @@ export function ProductCard({ product }: ProductCardProps) {
         </div>
       </dl>
 
-      {/* SDS Download */}
+      {/* SDS Link */}
       <a
         href={product.sdsUrl}
-        download
         className={cn(
           "inline-flex w-full items-center justify-center gap-2 rounded-md",
           "bg-brand-anthracite px-4 py-2.5 text-sm font-semibold text-white",
@@ -66,7 +65,7 @@ export function ProductCard({ product }: ProductCardProps) {
         )}
       >
         <FileDown className="h-4 w-4" aria-hidden="true" />
-        Download SDS
+        View SDS
       </a>
     </article>
   );

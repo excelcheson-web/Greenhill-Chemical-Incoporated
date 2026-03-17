@@ -6,7 +6,7 @@
     "formula": "NaOH",
     "purityGrade": "≥ 98%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds/sodium-hydroxide.pdf",
+    "sdsUrl": "/sds#caustic-soda-pearls",
     "certifications": ["ISO 14001"]
   },
   {
@@ -16,7 +16,7 @@
     "formula": "H₂SO₄",
     "purityGrade": "≥ 95%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds/sulfuric-acid.pdf",
+    "sdsUrl": "/sds#sulfuric-acid",
     "certifications": ["Responsible Care"]
   },
   {
@@ -26,7 +26,7 @@
     "formula": "C₃H₆O",
     "purityGrade": "≥ 99.5%",
     "category": "solvents",
-    "sdsUrl": "/sds/acetone.pdf",
+    "sdsUrl": "/sds#cerium-oxide",
     "certifications": ["ISO 14001", "Responsible Care"]
   },
   {
@@ -36,7 +36,7 @@
     "formula": "C₂H₅OH",
     "purityGrade": "≥ 99.8%",
     "category": "solvents",
-    "sdsUrl": "/sds/ethanol.pdf",
+    "sdsUrl": "/sds",
     "certifications": []
   },
   {
@@ -46,7 +46,7 @@
     "formula": "HCl",
     "purityGrade": "≥ 37%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds/hydrochloric-acid.pdf",
+    "sdsUrl": "/sds#hydrochloric-acid",
     "certifications": ["ISO 14001"]
   },
   {
@@ -56,7 +56,7 @@
     "formula": "C₇H₈",
     "purityGrade": "≥ 99.5%",
     "category": "solvents",
-    "sdsUrl": "/sds/toluene.pdf",
+    "sdsUrl": "/sds",
     "certifications": []
   },
   {
@@ -66,7 +66,7 @@
     "formula": "CaCO₃",
     "purityGrade": "≥ 99%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds/calcium-carbonate.pdf",
+    "sdsUrl": "/sds#calcium-hypochlorite",
     "certifications": ["ISO 14001", "Responsible Care"]
   },
   {
@@ -76,7 +76,7 @@
     "formula": "C₃H₈O",
     "purityGrade": "≥ 99.7%",
     "category": "solvents",
-    "sdsUrl": "/sds/isopropyl-alcohol.pdf",
+    "sdsUrl": "/sds",
     "certifications": ["Responsible Care"]
   }
 ]
