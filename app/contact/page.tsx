@@ -88,11 +88,11 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-sm font-semibold text-brand-anthracite">Office</h2>
                   <p className="text-sm text-brand-anthracite/70">
-                    Greenhills Product Bldg, M.L Quezon St.
+                    Greenhills Product Bldg,
                     <br />
-                    Casuntingan, Mandaue City
+                    M.L Quezon St. Casuntingan,
                     <br />
-                    Cebu, Philippines
+                    Mandaue City, Cebu
                   </p>
                 </div>
               </div>
