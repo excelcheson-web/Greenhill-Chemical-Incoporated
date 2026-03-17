@@ -405,10 +405,10 @@ export default function AboutPage() {
           <div className="lg:col-span-2">
             <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-brand-light">
               <Image
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
+                src="/images/ceo-alfredo-sanchez.jpg"
                 alt="Alfredo Sanchez, CEO of Greenhills Chemicals Incorporated"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
               {/* Name overlay */}

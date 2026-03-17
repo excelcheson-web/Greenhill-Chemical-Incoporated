@@ -114,7 +114,7 @@ export function Scrollytelling() {
           <ScrollStage index={0} className="order-2 lg:order-1">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1581093458791-9d42e3c4fd26?auto=format&fit=crop&w=960&q=80"
+                src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=960&q=80"
                 alt="Close-up of quality inspection process with certified chemical container showing quality-checked seal badge"
                 fill
                 className="object-cover"

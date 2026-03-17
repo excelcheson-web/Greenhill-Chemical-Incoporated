@@ -103,7 +103,7 @@ export default function SupplyChainPage() {
       {/* Hero */}
       <section className="relative isolate overflow-hidden bg-brand-anthracite">
         <Image
-          src="https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&w=1920&q=80"
+          src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80"
           alt=""
           fill
           priority

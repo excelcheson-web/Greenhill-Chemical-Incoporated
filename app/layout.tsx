@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/ui/navbar";
+import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -68,6 +69,8 @@ export default function RootLayout({
         <Navbar />
 
         <main id="main-content">{children}</main>
+
+        <WhatsAppButton />
 
         {/* Organization JSON-LD */}
         <script

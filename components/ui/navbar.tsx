@@ -36,9 +36,9 @@ export function Navbar() {
           <Image
             src="/images/greenhills-logo.png"
             alt="Greenhills Chemicals Incorporated: Creative and Beautiful Logo"
-            width={180}
-            height={48}
-            className="h-10 w-auto sm:h-12"
+            width={220}
+            height={64}
+            className="h-14 w-auto sm:h-16"
             priority
           />
         </Link>
