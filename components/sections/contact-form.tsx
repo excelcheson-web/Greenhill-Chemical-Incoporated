@@ -37,13 +37,25 @@ export function ContactForm() {
       return;
     }
 
+    const form = formRef.current!;
+    const formData = new FormData(form);
+
+    const templateParams: Record<string, string> = {};
+    formData.forEach((value, key) => {
+      templateParams[key] = value.toString();
+    });
+
     try {
-      await emailjs.sendForm(serviceId, templateId, formRef.current!, publicKey);
+      await emailjs.send(serviceId, templateId, templateParams, publicKey);
       setStatus("success");
-      formRef.current?.reset();
-    } catch {
+      form.reset();
+    } catch (err: unknown) {
       setStatus("error");
-      setErrorMessage("Failed to send message. Please try again or email us directly.");
+      const msg =
+        err instanceof Error ? err.message : "Unknown error";
+      setErrorMessage(
+        `Failed to send message (${msg}). Please try again or email us at sales@greenhillschemicals.com.`
+      );
     }
   }
 

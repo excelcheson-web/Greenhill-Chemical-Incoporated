@@ -33,7 +33,6 @@ export function HeroSection() {
         </h1>
 
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-brand-clean/80">
-          Like Notore and the world&rsquo;s leading chemical enterprises,
           Greenhills Chemicals Incorporated delivers high-purity, responsibly
           sourced industrial chemicals — backed by rigorous GHS compliance, full
           Safety Data Sheets, and a commitment to sustainable manufacturing.

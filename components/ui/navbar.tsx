@@ -44,12 +44,12 @@ export function Navbar() {
         </Link>
 
         {/* Desktop links */}
-        <ul className="hidden items-center gap-1 md:flex">
+        <ul className="hidden items-center gap-1.5 md:flex">
           {navLinks.map((link) => (
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="rounded-md px-3 py-2 text-sm font-medium text-brand-anthracite transition-colors hover:bg-brand-light hover:text-brand-mint focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-mint"
+                className="rounded-md border border-brand-border bg-brand-light px-3 py-1.5 text-sm font-medium text-brand-anthracite transition-colors hover:border-brand-mint hover:bg-brand-mint/10 hover:text-brand-mint focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-mint"
               >
                 {link.label}
               </Link>
@@ -87,7 +87,7 @@ export function Navbar() {
                 <Link
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="block rounded-md px-3 py-2 text-base font-medium text-brand-anthracite transition-colors hover:bg-brand-light hover:text-brand-mint focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-mint"
+                  className="block rounded-md border border-brand-border bg-brand-light px-3 py-2 text-base font-medium text-brand-anthracite transition-colors hover:border-brand-mint hover:bg-brand-mint/10 hover:text-brand-mint focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-mint"
                 >
                   {link.label}
                 </Link>
