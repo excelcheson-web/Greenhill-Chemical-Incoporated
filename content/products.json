@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sodium-hydroxide",
+    "name": "Sodium Hydroxide",
+    "casNumber": "1310-73-2",
+    "formula": "NaOH",
+    "purityGrade": "≥ 98%",
+    "category": "inorganic-chemicals",
+    "sdsUrl": "/sds/sodium-hydroxide.pdf",
+    "certifications": ["ISO 14001"]
+  },
+  {
+    "id": "sulfuric-acid",
+    "name": "Sulfuric Acid",
+    "casNumber": "7664-93-9",
+    "formula": "H₂SO₄",
+    "purityGrade": "≥ 95%",
+    "category": "inorganic-chemicals",
+    "sdsUrl": "/sds/sulfuric-acid.pdf",
+    "certifications": ["Responsible Care"]
+  },
+  {
+    "id": "acetone",
+    "name": "Acetone",
+    "casNumber": "67-64-1",
+    "formula": "C₃H₆O",
+    "purityGrade": "≥ 99.5%",
+    "category": "solvents",
+    "sdsUrl": "/sds/acetone.pdf",
+    "certifications": ["ISO 14001", "Responsible Care"]
+  },
+  {
+    "id": "ethanol",
+    "name": "Ethanol",
+    "casNumber": "64-17-5",
+    "formula": "C₂H₅OH",
+    "purityGrade": "≥ 99.8%",
+    "category": "solvents",
+    "sdsUrl": "/sds/ethanol.pdf",
+    "certifications": []
+  },
+  {
+    "id": "hydrochloric-acid",
+    "name": "Hydrochloric Acid",
+    "casNumber": "7647-01-0",
+    "formula": "HCl",
+    "purityGrade": "≥ 37%",
+    "category": "inorganic-chemicals",
+    "sdsUrl": "/sds/hydrochloric-acid.pdf",
+    "certifications": ["ISO 14001"]
+  },
+  {
+    "id": "toluene",
+    "name": "Toluene",
+    "casNumber": "108-88-3",
+    "formula": "C₇H₈",
+    "purityGrade": "≥ 99.5%",
+    "category": "solvents",
+    "sdsUrl": "/sds/toluene.pdf",
+    "certifications": []
+  },
+  {
+    "id": "calcium-carbonate",
+    "name": "Calcium Carbonate",
+    "casNumber": "471-34-1",
+    "formula": "CaCO₃",
+    "purityGrade": "≥ 99%",
+    "category": "inorganic-chemicals",
+    "sdsUrl": "/sds/calcium-carbonate.pdf",
+    "certifications": ["ISO 14001", "Responsible Care"]
+  },
+  {
+    "id": "isopropyl-alcohol",
+    "name": "Isopropyl Alcohol",
+    "casNumber": "67-63-0",
+    "formula": "C₃H₈O",
+    "purityGrade": "≥ 99.7%",
+    "category": "solvents",
+    "sdsUrl": "/sds/isopropyl-alcohol.pdf",
+    "certifications": ["Responsible Care"]
+  }
+]
