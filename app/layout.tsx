@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/ui/navbar";
+import { Footer } from "@/components/ui/footer";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
+import { IndustryPartners } from "@/components/sections/industry-partners";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -69,6 +71,10 @@ export default function RootLayout({
         <Navbar />
 
         <main id="main-content">{children}</main>
+
+        <IndustryPartners />
+
+        <Footer />
 
         <WhatsAppButton />
 
