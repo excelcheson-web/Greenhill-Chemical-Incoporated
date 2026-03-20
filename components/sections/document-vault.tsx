@@ -6,7 +6,6 @@ import {
   FileText,
   AlertTriangle,
   ShieldAlert,
-  Download,
 } from "lucide-react";
 import { chemicalSpecs } from "@/content/chemical-specs";
 import type { HazardLevel } from "@/content/chemical-specs";

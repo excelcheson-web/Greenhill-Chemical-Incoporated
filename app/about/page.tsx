@@ -13,7 +13,6 @@ import {
   Truck,
   Scale,
   ClipboardCheck,
-  User,
   Clock,
   Beaker,
   ShieldAlert,
