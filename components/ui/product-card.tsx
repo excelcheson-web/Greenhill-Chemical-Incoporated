@@ -56,7 +56,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
       {/* SDS Link */}
       <a
-        href={product.sdsUrl}
+        href={`/sds/${product.id}`}
         className={cn(
           "inline-flex w-full items-center justify-center gap-2 rounded-md",
           "bg-brand-anthracite px-4 py-2.5 text-sm font-semibold text-white",

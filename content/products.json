@@ -6,7 +6,7 @@
     "formula": "NaOH",
     "purityGrade": "≥ 98%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds#caustic-soda-pearls",
+    "sdsUrl": "/sds/caustic-soda-pearls.pdf",
     "certifications": ["ISO 14001"]
   },
   {
@@ -16,7 +16,7 @@
     "formula": "H₂SO₄",
     "purityGrade": "≥ 95%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds#sulfuric-acid",
+    "sdsUrl": "/sds/sulfuric-acid.pdf",
     "certifications": ["Responsible Care"]
   },
   {
@@ -26,7 +26,7 @@
     "formula": "C₃H₆O",
     "purityGrade": "≥ 99.5%",
     "category": "solvents",
-    "sdsUrl": "/sds#cerium-oxide",
+    "sdsUrl": "/sds/acetone.pdf",
     "certifications": ["ISO 14001", "Responsible Care"]
   },
   {
@@ -36,7 +36,7 @@
     "formula": "C₂H₅OH",
     "purityGrade": "≥ 99.8%",
     "category": "solvents",
-    "sdsUrl": "/sds",
+    "sdsUrl": "/sds/ethanol.pdf",
     "certifications": []
   },
   {
@@ -46,7 +46,7 @@
     "formula": "HCl",
     "purityGrade": "≥ 37%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds#hydrochloric-acid",
+    "sdsUrl": "/sds/hydrochloric-acid.pdf",
     "certifications": ["ISO 14001"]
   },
   {
@@ -56,7 +56,7 @@
     "formula": "C₇H₈",
     "purityGrade": "≥ 99.5%",
     "category": "solvents",
-    "sdsUrl": "/sds",
+    "sdsUrl": "/sds/toluene.pdf",
     "certifications": []
   },
   {
@@ -66,7 +66,7 @@
     "formula": "CaCO₃",
     "purityGrade": "≥ 99%",
     "category": "inorganic-chemicals",
-    "sdsUrl": "/sds#calcium-hypochlorite",
+    "sdsUrl": "/sds/calcium-carbonate.pdf",
     "certifications": ["ISO 14001", "Responsible Care"]
   },
   {
@@ -76,7 +76,147 @@
     "formula": "C₃H₈O",
     "purityGrade": "≥ 99.7%",
     "category": "solvents",
-    "sdsUrl": "/sds",
+    "sdsUrl": "/sds/isopropyl-alcohol.pdf",
     "certifications": ["Responsible Care"]
+  },
+  {
+    "id": "aqua-regia",
+    "name": "Aqua Regia (Nitric Acid + Hydrochloric Acid)",
+    "casNumber": "Mixture",
+    "formula": "HNO₃ + 3HCl",
+    "purityGrade": "Lab Grade",
+    "category": "gold-refining",
+    "sdsUrl": "/sds/aqua-regia.pdf",
+    "certifications": []
+  },
+  {
+    "id": "sodium-metabisulfite",
+    "name": "Sodium Metabisulfite (SMBS)",
+    "casNumber": "7681-57-4",
+    "formula": "Na2S2O5",
+    "purityGrade": "≥ 98%",
+    "category": "gold-refining",
+    "sdsUrl": "/sds/sodium-metabisulfite.pdf",
+    "certifications": ["ISO 14001"]
+  },
+  {
+    "id": "nitric-acid",
+    "name": "Nitric Acid",
+    "casNumber": "7697-37-2",
+    "formula": "HNO₃",
+    "purityGrade": "≥ 68%",
+    "category": "gold-refining",
+    "sdsUrl": "/sds/nitric-acid.pdf",
+    "certifications": ["Responsible Care"]
+  },
+  {
+    "id": "urea",
+    "name": "Urea",
+    "casNumber": "57-13-6",
+    "formula": "CH4N2O",
+    "purityGrade": "≥ 99%",
+    "category": "gold-refining",
+    "sdsUrl": "/sds/urea.pdf",
+    "certifications": []
+  },
+  {
+    "id": "hydrogen-peroxide",
+    "name": "Hydrogen Peroxide",
+    "casNumber": "7722-84-1",
+    "formula": "H2O2",
+    "purityGrade": "35%",
+    "category": "gold-refining",
+    "sdsUrl": "/sds/hydrogen-peroxide.pdf",
+    "certifications": []
+  },
+  {
+    "id": "superplasticizer",
+    "name": "Superplasticizer",
+    "casNumber": "Mixture",
+    "formula": "-",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/superplasticizer.pdf",
+    "certifications": []
+  },
+  {
+    "id": "accelerator",
+    "name": "Accelerator",
+    "casNumber": "Mixture",
+    "formula": "-",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/accelerator.pdf",
+    "certifications": []
+  },
+  {
+    "id": "retarder",
+    "name": "Retarder",
+    "casNumber": "Mixture",
+    "formula": "-",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/retarder.pdf",
+    "certifications": []
+  },
+  {
+    "id": "waterproofing-admixture",
+    "name": "Waterproofing Admixture",
+    "casNumber": "Mixture",
+    "formula": "-",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/waterproofing-admixture.pdf",
+    "certifications": []
+  },
+  {
+    "id": "epoxy-resin",
+    "name": "Epoxy Resin/Coating",
+    "casNumber": "25068-38-6",
+    "formula": "(C21H25ClO5)n",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/epoxy-resin.pdf",
+    "certifications": ["ISO 14001"]
+  },
+  {
+    "id": "polyurethane",
+    "name": "Polyurethane (PU)",
+    "casNumber": "9009-54-5",
+    "formula": "(C25H42N2O6)n",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/polyurethane.pdf",
+    "certifications": []
+  },
+  {
+    "id": "anti-corrosion-coating",
+    "name": "Anti-corrosion Coating",
+    "casNumber": "Mixture",
+    "formula": "-",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/anti-corrosion-coating.pdf",
+    "certifications": []
+  },
+  {
+    "id": "polymer-modified-mortar",
+    "name": "Polymer-modified Mortar",
+    "casNumber": "Mixture",
+    "formula": "-",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/polymer-modified-mortar.pdf",
+    "certifications": []
+  },
+  {
+    "id": "grout",
+    "name": "Grout",
+    "casNumber": "Mixture",
+    "formula": "-",
+    "purityGrade": "Industrial Grade",
+    "category": "construction-chemicals",
+    "sdsUrl": "/sds/grout.pdf",
+    "certifications": []
   }
 ]
